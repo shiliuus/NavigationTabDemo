@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.actionbartabs.MainActivity" >
+
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_more"
+        android:icon="@android:drawable/ic_menu_more"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:title="@string/more"/>
+    <item
+        android:id="@+id/action_share"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:orderInCategory="101"
+        app:showAsAction="ifRoom"
+        android:title="@string/share"/>
+
+</menu>
